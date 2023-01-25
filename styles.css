@@ -1,5 +1,46 @@
-* {
-    box-sizing: border-box;
+/* {
+    /*outline: 1px solid red;
+    
+   /* box-sizing: border-box;
     margin: 0;
-    padding: 0;
+    padding: 0;*/
+
+ 
+body{
+    background-color: #c4ca96;
+    color: #2c373a;
+}
+header{
+    background-color: #607a97;
+    padding-top: 16px;
+    padding-left: 16px;
+    padding-bottom: 16px;
+}
+
+header, section{
+    width: 960px;
+    margin: 0 auto;
+    display: flex;
+}
+section{
+    background-color: #887a7d;
+    padding-left: 16px;
+    height: 100%;
+}
+article{
+    width: 50%;
+}
+img{
+    margin-right: 16px;
+    border-radius: 50%;
+    border-style: outset;
+    border-width: 7px;
+}
+#Personal {
+    display: flex;
+    
+}
+p {
+    padding-left: 10px;
+    margin: 0;
 }
