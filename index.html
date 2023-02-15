@@ -6,6 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Curriculum Vitae</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/67a713368c.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
@@ -13,12 +17,17 @@
         <div>
             <h1>Curriculum Vitae</h1>
             <h2>Alfred Ramos</h2>
-        </div>    
+        </div>
+        <aside>
+            <h2>Sobre mi</h2>
+            <br>
+            <button type="button" class="button">More info</button>
+        </aside>    
     </header>
     <section>
         <article>
-            <h2>Datos Personales</h2>
-            <ul id="Personal">
+            <h2><i class="fa-solid fa-user"></i>Datos Personales</h2>
+            <ul id="personal">
                 <li>
                     <p><b>Fecha de nacimiento:</b></p>
                     <p><time datetime="1990-01-12">12 Ene 1990</time></p>
@@ -37,38 +46,75 @@
                 </li>
                 
             </ul>
-            <h2>Experiencia Laboral</h2>
+            <br>
+            <h2><i class="fa-solid fa-briefcase"></i>Experiencia Laboral</h2>
+            <dl>
+                <dd>
+                    <p><b>Rapipago:</b></p>
+                    <p><b>Desde: </b>Feb de 2015 <b>Hasta: </b>Abril de 2018</p>
+                </dd>
+                <br>
+                <dd>
+                    <p><b>Estudio contable:</b></p>
+                    <p><b>Desde:</b> mayo de 2018 <b>Hasta:</b>Actualidad</p>
+                </dd>
+            </dl>
+            <br>
+            <h2><i class="fa-solid fa-book"></i>Conocimientos</h2>
             <ul>
                 <li>
-                    <p><b>Rapipago</b></p>
-                    <p> 
-                        <b>Desde:</b>
-                         Feb de 2015
-                         <b>Hasta</b>
-                         Abril de 2018
-                    </p>
+                    <p>Manejo completo de Paquete Office</p>
                 </li>
                 <li>
-                    <p><b>Estudio contable</b></p>
-                    <p>
-                        <b>Desde:</b>
-                         mayo de 2018
-                         <b>Hasta:</b>
-                         Actualidad
-                    </p>
+                    <p>Ingles Intermedio</p>
                 </li>
                 <li>
-                    <P><b></b></P>
-                    <P></P>
+                    <p>Mecanografia</p>
                 </li>
                 <li>
-                    <P><b></b></P>
-                    <P></P>
+                    <p>Liquidación</p> 
                 </li>
             </ul>
+            <br>
+            <h2><i class="fa-brands fa-dribbble"></i>Hobbies</h2>
+            <ul>
+                <li>
+                    <p>Caminata</p>
+                </li>
+                <li>
+                    <p>Meditación</p>
+                </li>
+                <li>
+                    <p>Leer libros</p>
+                </li>
+                <li>
+                    <p>Bailar</p> 
+                </li>
+                <li>
+                    <p>Tocar la guitarra</p> 
+                </li>
+            </ul>
+            <br>
+            <h3><i class="fa-solid fa-hashtag"></i>Dejame tu feedback</h3><br>
+            <form action="" method="post">
+                <fieldset>
+
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" placeholder="Ingrese su Nombre"><br>
+
+                <label for="Apellido">Apellido:</label>
+                <input type="text" id="apellido" placeholder="Ingrese su Apellido"><br>
+
+                <label for="areatexto">Mensaje:</label>
+                <textarea id="areatexto"></textarea><br>
+                <input type="submit" value="Enviar">
+
+                </fieldset>
+
+            </form>
         </article>
         <aside>
-            <h2>Información Academica</h2>
+            <h2><i class="fa-solid fa-school"></i>Información Academica</h2>
             <ul>
                 <li>
                     <P><b>Técnico en contabilidad</b></P>
@@ -93,5 +139,6 @@
             </ul>
         </aside>
     </section>
+    <script src="funciones.js"></script>
 </body>
 </html>
