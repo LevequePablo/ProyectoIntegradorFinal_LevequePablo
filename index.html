@@ -19,9 +19,18 @@
             <h2>Alfred Ramos</h2>
         </div>
         <aside>
-            <h2>Sobre mi</h2>
-            <br>
-            <button type="button" class="button">More info</button>
+            
+            <div>
+                <h2>Sobre mi</h2>
+                <button type="button" id="open">More info</button>
+                <div class="ventana-emergente" id="ventana_emergente">
+                    <div class="ventana">
+                    <p>Hola me presento:<br> Soy Alfred Ramos, nacido y criado en Argentina. Actualmente trabajo en un estudio contable como auxiliar. Graduado de la unCuyo y con varios cursos realizados para mi formacion academina. me desenvuelvo bien en las posibles situaciones que aparezcan y les doy rapida solucion. Siempre trato de mejorar y aprender para estar al dia con las circuntancias. Todo un placer para mi que vean mi CV y que me tengan en cuenta. Un saludo.
+                    </p>
+                    <button id="close">Cerrar</button>
+                    </div>
+                </div>
+            </div>
         </aside>    
     </header>
     <section>
@@ -107,7 +116,7 @@
 
                 <label for="areatexto">Mensaje:</label>
                 <textarea id="areatexto"></textarea><br>
-                <input type="submit" value="Enviar">
+                <input type="submit" value="Enviar" id="feedback">
 
                 </fieldset>
 
